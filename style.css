@@ -1,0 +1,41 @@
+/*** Reset CSS*/
+html{
+    font-size: 62.5%;
+    color:white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+*{
+    margin:0;
+    padding: 0;
+    box-sizing:border-box;
+}
+.header{
+    padding: 2rem;
+    background-color: rgb(22, 40, 99);
+    font-size: 1.5rem;
+    position: sticky;
+    top:0px;
+}
+
+.container{
+    height:80vh;
+    width: 100%;
+    background-color: rgb(22, 40, 99);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container-white{
+    background-color: rgb(223, 223, 223);
+    color:rgb(22, 40, 99);
+}
+.container__titre{
+    font-size: 3rem;
+}
+.footer{
+    height: 300px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+}
