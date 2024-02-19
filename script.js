@@ -6,7 +6,7 @@ const section3 = document.querySelectorAll(".container")[2];
 const section5 = document.querySelectorAll(".container")[4];
 
 /**
- * 2. Je créer l'observer qui va excuter une function callback quand
+ * 2. Je créer l'observer qui va executer une function callback quand
  * l'element observé est aperçu dans l'écran.
  * A ce stade la nous n'avons pas encore défini d'element à
  * obeserver
